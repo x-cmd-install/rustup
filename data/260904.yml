@@ -4,24 +4,24 @@ about:
     The Rust toolchain installer
   license: Apache-2.0
   homepage: https://rustup.rs/
-  head: 4b08719
+  head: 60e495a
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:18:24Z
+  collectedAt: 2026-09-04T21:15:44Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-09-04
   lastRelease: 
 popularity:
-  star: 7031
+  star: 7032
   watcher: 104
   fork: 1093
   release: 0
-  contributor: 447
+  contributor: 448
   pullRequest: 2650
   issue: 2330
 language:
-  Rust: 1071630
+  Rust: 1073381
   Shell: 43129
   HTML: 15441
   Dockerfile: 11956
@@ -32,64 +32,157 @@ language:
   Nix: 626
   Xonsh: 81
   Nu: 47
-totalBytes: 1165917
+totalBytes: 1167668
 recent:
   last30d:
     since: 2026-08-05
     release: 0
-    mergedPR: 32
-    openPR: 7
+    mergedPR: 33
+    openPR: 6
     closedIssue: 5
     openIssue: 8
-    commit: 49
+    commit: 51
   last60d:
     since: 2026-07-06
     release: 0
-    mergedPR: 62
-    openPR: 10
-    closedIssue: 18
-    openIssue: 13
-    commit: 111
+    mergedPR: 63
+    openPR: 9
+    closedIssue: 19
+    openIssue: 12
+    commit: 113
   last90d:
     since: 2026-06-06
     release: 0
-    mergedPR: 88
-    openPR: 10
-    closedIssue: 29
-    openIssue: 16
-    commit: 159
+    mergedPR: 89
+    openPR: 9
+    closedIssue: 30
+    openIssue: 15
+    commit: 161
   last180d:
     since: 2026-03-08
     release: 0
-    mergedPR: 178
-    openPR: 12
-    closedIssue: 68
-    openIssue: 27
-    commit: 301
+    mergedPR: 179
+    openPR: 11
+    closedIssue: 69
+    openIssue: 26
+    commit: 303
   last360d:
     since: 2025-09-09
     release: 0
-    mergedPR: 329
-    openPR: 17
-    closedIssue: 118
-    openIssue: 50
-    commit: 676
+    mergedPR: 330
+    openPR: 16
+    closedIssue: 119
+    openIssue: 49
+    commit: 678
   last720d:
     since: 2024-09-14
     release: 0
-    mergedPR: 576
-    openPR: 17
-    closedIssue: 234
-    openIssue: 101
-    commit: 1117
+    mergedPR: 577
+    openPR: 16
+    closedIssue: 235
+    openIssue: 100
+    commit: 1119
 total:
   release: 0
-  mergedPR: 2243
-  openPR: 28
-  closedIssue: 1935
-  openIssue: 395
-  commit: 6031
+  mergedPR: 2244
+  openPR: 27
+  closedIssue: 1936
+  openIssue: 394
+  commit: 6033
 ---
+path: /home/runner/.x-repo/github.com/rust-lang/rustup
+collectedAt: 2026-09-04T21:15:46Z
+loc:
+  Rust:
+    code: 35405
+    comments: 1789
+    blanks: 4091
+    files: 80
+  Svg:
+    code: 3672
+    comments: 0
+    blanks: 174
+    files: 61
+  Toml:
+    code: 981
+    comments: 32
+    blanks: 86
+    files: 8
+  Sh:
+    code: 744
+    comments: 136
+    blanks: 124
+    files: 4
+  Yaml:
+    code: 743
+    comments: 56
+    blanks: 4
+    files: 8
+  Css:
+    code: 415
+    comments: 132
+    blanks: 113
+    files: 2
+  Html:
+    code: 377
+    comments: 1
+    blanks: 23
+    files: 1
+  JavaScript:
+    code: 256
+    comments: 6
+    blanks: 28
+    files: 1
+  Bash:
+    code: 240
+    comments: 63
+    blanks: 58
+    files: 7
+  Python:
+    code: 182
+    comments: 41
+    blanks: 41
+    files: 2
+  Dockerfile:
+    code: 157
+    comments: 48
+    blanks: 50
+    files: 29
+  Nix:
+    code: 15
+    comments: 6
+    blanks: 2
+    files: 1
+  PowerShell:
+    code: 12
+    comments: 4
+    blanks: 4
+    files: 2
+  Json:
+    code: 10
+    comments: 0
+    blanks: 0
+    files: 1
+  Fish:
+    code: 3
+    comments: 2
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 4375
+    blanks: 1111
+    files: 37
+  Text:
+    code: 0
+    comments: 162
+    blanks: 17
+    files: 2
+total:
+  code: 43301
+  comments: 7746
+  blanks: 6050
+  files: 247
 ---
 date: "2026-08-24"
 repo:
