@@ -1,0 +1,66 @@
+about:
+  description: The Rust toolchain installer
+  license: Apache-2.0
+  homepage: https://rustup.rs/
+  head: 9240594
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-04T02:45:46Z
+timeline:
+  created: 2015-09-26
+  lastCommit: 2026-09-03
+  lastRelease: ?
+popularity:
+  star: 7031
+  watcher: 104
+  fork: 1092
+  release: 0
+  contributor: 447
+  pullRequest: 407
+  issue: 2330
+language:
+  Rust: 1059312
+  Shell: 43129
+  HTML: 15441
+  Dockerfile: 11956
+  Python: 8534
+  JavaScript: 7497
+  CSS: 6213
+  PowerShell: 763
+  Nix: 626
+  Xonsh: 81
+  Nu: 47
+totalLine: 1153599
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 29
+    openPR: 7
+    closedIssue: 5
+    openIssue: 8
+    commit: 45
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 85
+    openPR: 10
+    closedIssue: 29
+    openIssue: 16
+    commit: 155
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 175
+    openPR: 12
+    closedIssue: 68
+    openIssue: 27
+    commit: 297
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 326
+    openPR: 17
+    closedIssue: 118
+    openIssue: 50
+    commit: 672
