@@ -7,7 +7,7 @@ The Rust toolchain installer
 - **Latest release**: `` (n/a)
 - **Last commit**: 2026-09-08
 - **License**: Apache-2.0
-- **Stars**: 7032 · **Forks**: 1093 · **Open issues**: 2331 · **Contributors**: 448
+- **Stars**: 7034 · **Forks**: 1092 · **Open issues**: 2332 · **Contributors**: 448
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/rustup> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T10:57:49Z._
+_Last regenerated: 2026-09-09T05:01:25Z._
