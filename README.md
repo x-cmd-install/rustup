@@ -24,23 +24,23 @@ x install rustup
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2253 · **Open PRs**: 27 · **Closed issues**: 1939 · **Open issues**: 393 · **Commits**: 6050
+- **Releases**: 0 · **Merged PRs**: 2254 · **Open PRs**: 26 · **Closed issues**: 1939 · **Open issues**: 393 · **Commits**: 6051
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 35 | 6 | 5 | 5 | 58 |
-| 90d | 2026-06-12 | 0 | 96 | 9 | 29 | 14 | 170 |
-| 360d | 2025-09-15 | 0 | 337 | 16 | 120 | 49 | 690 |
+| 30d | 2026-08-11 | 0 | 36 | 5 | 5 | 5 | 59 |
+| 90d | 2026-06-12 | 0 | 97 | 8 | 29 | 14 | 171 |
+| 360d | 2025-09-15 | 0 | 338 | 15 | 120 | 49 | 691 |
 
 ## Code size
 
-Total: **43,174** lines of code across **161** files in the top 5 languages.
+Total: **43,208** lines of code across **161** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 35,368 | 1,793 | 4,105 | 80 |
+| Rust | 35,402 | 1,788 | 4,108 | 80 |
 | Svg | 3,672 | 0 | 174 | 61 |
 | Toml | 979 | 32 | 86 | 8 |
 | Sh | 744 | 136 | 124 | 4 |
@@ -61,8 +61,8 @@ Lowest-scoring checks:
 Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `rustup` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/rustup.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/rustup.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:51:46Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:32:00Z._
