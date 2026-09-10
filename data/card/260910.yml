@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T16:31:50Z
+  collectedAt: 2026-09-10T21:44:44Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-09-10
@@ -93,7 +93,7 @@ total:
   commit: 6051
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rustup
-collectedAt: 2026-09-10T16:31:54Z
+collectedAt: 2026-09-10T21:44:47Z
 loc:
   Rust:
     code: 35402
