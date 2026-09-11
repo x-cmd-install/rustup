@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:03:59Z
+  collectedAt: 2026-09-11T20:12:52Z
 timeline:
   created: 2015-09-26
   lastCommit: 2026-09-10
@@ -17,11 +17,11 @@ timeline:
 popularity:
   star: 7034
   watcher: 105
-  fork: 1093
+  fork: 1092
   release: 0
   contributor: 448
-  pullRequest: 2660
-  issue: 2332
+  pullRequest: 2662
+  issue: 2333
 language:
   Rust: 1074077
   Shell: 43129
@@ -40,60 +40,60 @@ recent:
     since: 2026-08-12
     release: 0
     mergedPR: 35
-    openPR: 5
+    openPR: 7
     closedIssue: 5
-    openIssue: 5
+    openIssue: 6
     commit: 59
   last60d:
     since: 2026-07-13
     release: 0
     mergedPR: 61
-    openPR: 7
+    openPR: 9
     closedIssue: 19
-    openIssue: 9
+    openIssue: 10
     commit: 109
   last90d:
     since: 2026-06-13
     release: 0
     mergedPR: 97
-    openPR: 8
+    openPR: 10
     closedIssue: 27
-    openIssue: 14
+    openIssue: 15
     commit: 171
   last180d:
     since: 2026-03-15
     release: 0
     mergedPR: 183
-    openPR: 10
+    openPR: 12
     closedIssue: 67
-    openIssue: 25
+    openIssue: 26
     commit: 313
   last360d:
     since: 2025-09-16
     release: 0
     mergedPR: 337
-    openPR: 15
+    openPR: 17
     closedIssue: 120
-    openIssue: 49
+    openIssue: 50
     commit: 691
   last720d:
     since: 2024-09-21
     release: 0
     mergedPR: 583
-    openPR: 15
+    openPR: 17
     closedIssue: 236
-    openIssue: 98
+    openIssue: 99
     commit: 1132
 total:
   release: 0
   mergedPR: 2254
-  openPR: 26
-  closedIssue: 1939
-  openIssue: 393
+  openPR: 28
+  closedIssue: 1938
+  openIssue: 395
   commit: 6051
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rustup
-collectedAt: 2026-09-11T05:04:03Z
+collectedAt: 2026-09-11T20:12:55Z
 loc:
   Rust:
     code: 35402
