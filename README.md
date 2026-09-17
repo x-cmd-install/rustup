@@ -14,11 +14,11 @@ x install rustup
 
 ## Code insight
 
-Total: **43,203** lines of code across **161** files in the top 5 languages.
+Total: **43,405** lines of code across **161** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 35,405 | 1,789 | 4,109 | 80 |
+| Rust | 35,607 | 1,786 | 4,130 | 80 |
 | Svg | 3,672 | 0 | 174 | 61 |
 | Toml | 979 | 32 | 86 | 8 |
 | Sh | 744 | 136 | 124 | 4 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,040 · **Forks**: 1,092 · **Open issues**: 2,336 · **Contributors**: 449
+- **Stars**: 7,044 · **Forks**: 1,093 · **Open issues**: 2,336 · **Contributors**: 450
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2264 · **Open PRs**: 29 · **Closed issues**: 1940 · **Open issues**: 396 · **Commits**: 6067
+- **Releases**: 0 · **Merged PRs**: 2270 · **Open PRs**: 28 · **Closed issues**: 1943 · **Open issues**: 393 · **Commits**: 6085
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 41 | 9 | 4 | 9 | 60 |
-| last60d | 2026-07-18 | 0 | 67 | 11 | 19 | 13 | 118 |
-| 90d | 2026-06-18 | 0 | 103 | 12 | 25 | 18 | 177 |
-| last180d | 2026-03-20 | 0 | 187 | 14 | 62 | 28 | 316 |
-| 360d | 2025-09-21 | 0 | 344 | 19 | 121 | 52 | 654 |
-| last720d | 2024-09-26 | 0 | 589 | 19 | 236 | 101 | 1142 |
+| 30d | 2026-08-18 | 0 | 45 | 7 | 7 | 6 | 78 |
+| last60d | 2026-07-19 | 0 | 73 | 10 | 22 | 10 | 136 |
+| 90d | 2026-06-19 | 0 | 107 | 11 | 28 | 15 | 195 |
+| last180d | 2026-03-21 | 0 | 193 | 13 | 64 | 25 | 334 |
+| 360d | 2025-09-22 | 0 | 345 | 18 | 123 | 49 | 672 |
+| last720d | 2024-09-27 | 0 | 595 | 18 | 239 | 98 | 1157 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:15:44Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:16:44Z._
