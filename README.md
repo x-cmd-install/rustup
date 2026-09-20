@@ -4,7 +4,7 @@
 
 The Rust toolchain installer
 
-![rustup](https://repo.x-cmd.io/rustup.svg)
+[![x-cmd/install — rustup Code Quality Monitoring Repo Card](https://repo.x-cmd.io/rustup.svg)](https://x-cmd.com/install/rustup)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install rustup
 
 ## Code insight
 
-Total: **43,405** lines of code across **161** files in the top 5 languages.
+Total: **43,399** lines of code across **161** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 35,607 | 1,786 | 4,130 | 80 |
+| Rust | 35,601 | 1,783 | 4,131 | 80 |
 | Svg | 3,672 | 0 | 174 | 61 |
 | Toml | 979 | 32 | 86 | 8 |
 | Sh | 744 | 136 | 124 | 4 |
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2270 · **Open PRs**: 29 · **Closed issues**: 1942 · **Open issues**: 395 · **Commits**: 6085
+- **Releases**: 0 · **Merged PRs**: 2272 · **Open PRs**: 28 · **Closed issues**: 1943 · **Open issues**: 394 · **Commits**: 6096
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 44 | 8 | 6 | 7 | 78 |
-| last60d | 2026-07-20 | 0 | 72 | 10 | 21 | 11 | 136 |
-| 90d | 2026-06-20 | 0 | 106 | 12 | 26 | 17 | 195 |
-| last180d | 2026-03-22 | 0 | 191 | 14 | 62 | 27 | 334 |
-| 360d | 2025-09-23 | 0 | 344 | 19 | 122 | 51 | 672 |
-| last720d | 2024-09-28 | 0 | 595 | 19 | 238 | 99 | 1157 |
+| 30d | 2026-08-21 | 0 | 44 | 7 | 7 | 5 | 77 |
+| last60d | 2026-07-22 | 0 | 73 | 8 | 22 | 10 | 137 |
+| 90d | 2026-06-22 | 0 | 106 | 11 | 27 | 15 | 203 |
+| last180d | 2026-03-24 | 0 | 191 | 13 | 62 | 25 | 332 |
+| 360d | 2025-09-25 | 0 | 345 | 18 | 123 | 50 | 675 |
+| last720d | 2024-09-30 | 0 | 596 | 18 | 239 | 98 | 1168 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:00:58Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:10:54Z._
