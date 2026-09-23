@@ -4,7 +4,7 @@
 
 The Rust toolchain installer
 
-[![x-cmd/install — rustup Code Quality Monitoring Repo Card](https://repo.x-cmd.io/rustup.svg)](https://x-cmd.com/install/rustup)
+[![x-cmd/install — rustup Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/rustup.svg)](https://x-cmd.com/install/rustup)
 
 ## Install
 
@@ -14,13 +14,13 @@ x install rustup
 
 ## Code insight
 
-Total: **43,399** lines of code across **161** files in the top 5 languages.
+Total: **43,492** lines of code across **161** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 35,601 | 1,783 | 4,131 | 80 |
+| Rust | 35,695 | 1,790 | 4,115 | 80 |
 | Svg | 3,672 | 0 | 174 | 61 |
-| Toml | 979 | 32 | 86 | 8 |
+| Toml | 978 | 32 | 86 | 8 |
 | Sh | 744 | 136 | 124 | 4 |
 | Yaml | 732 | 57 | 4 | 8 |
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,048 · **Forks**: 1,094 · **Open issues**: 2,337 · **Contributors**: 450
+- **Stars**: 7,047 · **Forks**: 1,093 · **Open issues**: 2,337 · **Contributors**: 450
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2273 · **Open PRs**: 29 · **Closed issues**: 1943 · **Open issues**: 394 · **Commits**: 6097
+- **Releases**: 0 · **Merged PRs**: 2275 · **Open PRs**: 27 · **Closed issues**: 1943 · **Open issues**: 394 · **Commits**: 6110
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 44 | 8 | 6 | 5 | 78 |
-| last60d | 2026-07-24 | 0 | 73 | 9 | 21 | 10 | 138 |
-| 90d | 2026-06-24 | 0 | 106 | 12 | 27 | 15 | 204 |
-| last180d | 2026-03-26 | 0 | 189 | 14 | 62 | 23 | 333 |
-| 360d | 2025-09-27 | 0 | 345 | 19 | 123 | 50 | 676 |
-| last720d | 2024-10-02 | 0 | 595 | 19 | 238 | 98 | 1168 |
+| 30d | 2026-08-24 | 0 | 44 | 6 | 6 | 4 | 91 |
+| last60d | 2026-07-25 | 0 | 74 | 7 | 21 | 10 | 151 |
+| 90d | 2026-06-25 | 0 | 108 | 10 | 27 | 15 | 217 |
+| last180d | 2026-03-27 | 0 | 190 | 11 | 62 | 23 | 346 |
+| 360d | 2025-09-28 | 0 | 347 | 17 | 123 | 48 | 689 |
+| last720d | 2024-10-03 | 0 | 597 | 17 | 238 | 98 | 1181 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:14:55Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:10:43Z._
