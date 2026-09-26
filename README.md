@@ -14,15 +14,15 @@ x install rustup
 
 ## Code insight
 
-Total: **44,185** lines of code across **162** files in the top 5 languages.
+Total: **44,223** lines of code across **162** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 36,388 | 1,796 | 4,202 | 81 |
+| Rust | 36,379 | 1,796 | 4,203 | 81 |
 | Svg | 3,672 | 0 | 174 | 61 |
 | Toml | 978 | 32 | 86 | 8 |
-| Sh | 744 | 136 | 124 | 4 |
-| Yaml | 732 | 57 | 4 | 8 |
+| Yaml | 775 | 69 | 4 | 8 |
+| Sh | 747 | 139 | 125 | 4 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,048 · **Forks**: 1,093 · **Open issues**: 2,339 · **Contributors**: 450
+- **Stars**: 7,052 · **Forks**: 1,092 · **Open issues**: 2,339 · **Contributors**: 450
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2280 · **Open PRs**: 25 · **Closed issues**: 1948 · **Open issues**: 391 · **Commits**: 6127
+- **Releases**: 0 · **Merged PRs**: 2282 · **Open PRs**: 26 · **Closed issues**: 1948 · **Open issues**: 391 · **Commits**: 6137
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 49 | 5 | 6 | 4 | 108 |
-| last60d | 2026-07-27 | 0 | 76 | 6 | 18 | 11 | 168 |
-| 90d | 2026-06-27 | 0 | 112 | 9 | 28 | 16 | 234 |
-| last180d | 2026-03-29 | 0 | 193 | 10 | 61 | 24 | 363 |
-| 360d | 2025-09-30 | 0 | 350 | 16 | 125 | 47 | 706 |
-| last720d | 2024-10-05 | 0 | 602 | 16 | 242 | 96 | 1197 |
+| 30d | 2026-08-27 | 0 | 50 | 6 | 6 | 4 | 118 |
+| last60d | 2026-07-28 | 0 | 78 | 7 | 15 | 11 | 178 |
+| 90d | 2026-06-28 | 0 | 114 | 10 | 28 | 16 | 244 |
+| last180d | 2026-03-30 | 0 | 194 | 11 | 61 | 24 | 373 |
+| 360d | 2025-10-01 | 0 | 350 | 17 | 125 | 47 | 716 |
+| last720d | 2024-10-06 | 0 | 604 | 17 | 241 | 96 | 1207 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T05:05:50Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:16:57Z._
