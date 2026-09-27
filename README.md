@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 0 | 50 | 6 | 6 | 4 | 118 |
-| last60d | 2026-07-28 | 0 | 78 | 7 | 15 | 11 | 178 |
-| 90d | 2026-06-28 | 0 | 114 | 10 | 28 | 16 | 244 |
-| last180d | 2026-03-30 | 0 | 194 | 11 | 61 | 24 | 373 |
-| 360d | 2025-10-01 | 0 | 350 | 17 | 125 | 47 | 716 |
-| last720d | 2024-10-06 | 0 | 604 | 17 | 241 | 96 | 1207 |
+| 30d | 2026-08-28 | 0 | 50 | 6 | 6 | 4 | 103 |
+| last60d | 2026-07-29 | 0 | 76 | 7 | 15 | 11 | 165 |
+| 90d | 2026-06-29 | 0 | 110 | 10 | 26 | 16 | 220 |
+| last180d | 2026-03-31 | 0 | 190 | 11 | 61 | 24 | 366 |
+| 360d | 2025-10-02 | 0 | 349 | 17 | 125 | 47 | 682 |
+| last720d | 2024-10-07 | 0 | 603 | 17 | 241 | 96 | 1207 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:16:57Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:28:19Z._
