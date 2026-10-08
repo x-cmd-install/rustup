@@ -372,3 +372,4 @@ checks:
       - 'Info:   1 out of  20 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of  29 containerImage dependencies pinned'
       - 'Info:   0 out of   1 downloadThenRun dependencies pinned'
+---
