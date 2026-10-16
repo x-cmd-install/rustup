@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,073 · **Forks**: 1,095 · **Open issues**: 2,344 · **Contributors**: 453
+- **Stars**: 7,072 · **Forks**: 1,095 · **Open issues**: 2,347 · **Contributors**: 453
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2306 · **Open PRs**: 26 · **Closed issues**: 1954 · **Open issues**: 390 · **Commits**: 6186
+- **Releases**: 0 · **Merged PRs**: 2307 · **Open PRs**: 27 · **Closed issues**: 1956 · **Open issues**: 391 · **Commits**: 6187
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 37 | 4 | 3 | 6 | 76 |
-| last60d | 2026-08-16 | 0 | 84 | 7 | 12 | 9 | 186 |
-| 90d | 2026-07-17 | 0 | 110 | 9 | 28 | 12 | 239 |
-| last180d | 2026-04-18 | 0 | 198 | 11 | 59 | 23 | 399 |
-| 360d | 2025-10-20 | 0 | 341 | 16 | 125 | 43 | 641 |
-| last720d | 2024-10-25 | 0 | 619 | 17 | 241 | 91 | 1248 |
+| 30d | 2026-09-16 | 0 | 34 | 5 | 4 | 7 | 77 |
+| last60d | 2026-08-17 | 0 | 84 | 8 | 14 | 10 | 187 |
+| 90d | 2026-07-18 | 0 | 110 | 10 | 30 | 13 | 240 |
+| last180d | 2026-04-19 | 0 | 198 | 12 | 61 | 24 | 400 |
+| 360d | 2025-10-21 | 0 | 341 | 17 | 127 | 44 | 642 |
+| last720d | 2024-10-26 | 0 | 620 | 18 | 243 | 92 | 1238 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:47:05Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:39:23Z._
