@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,088 · **Forks**: 1,099 · **Open issues**: 2,350 · **Contributors**: 453
+- **Stars**: 7,090 · **Forks**: 1,100 · **Open issues**: 2,350 · **Contributors**: 453
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 35 | 5 | 5 | 7 | 64 |
-| last60d | 2026-08-24 | 0 | 84 | 7 | 13 | 10 | 175 |
-| 90d | 2026-07-25 | 0 | 114 | 8 | 30 | 14 | 235 |
-| last180d | 2026-04-26 | 0 | 194 | 12 | 59 | 26 | 389 |
-| 360d | 2025-10-28 | 0 | 336 | 16 | 125 | 45 | 619 |
-| last720d | 2024-11-02 | 0 | 626 | 18 | 244 | 94 | 1241 |
+| 30d | 2026-09-24 | 0 | 34 | 4 | 5 | 6 | 64 |
+| last60d | 2026-08-25 | 0 | 84 | 7 | 13 | 10 | 175 |
+| 90d | 2026-07-26 | 0 | 114 | 8 | 29 | 14 | 235 |
+| last180d | 2026-04-27 | 0 | 194 | 12 | 57 | 26 | 389 |
+| 360d | 2025-10-29 | 0 | 336 | 16 | 124 | 44 | 619 |
+| last720d | 2024-11-03 | 0 | 626 | 18 | 244 | 94 | 1241 |
 
 ## Distribution status
 
-Reported by **121** distros on [repology.org](https://repology.org/project/rustup). **23** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **121** distros on [repology.org](https://repology.org/project/rustup). **26** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **121** distros on [repology.org](https://repology.org/project/rustu
 | Ubuntu 26.04 LTS | `1.27.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.26.0` | ⚠️ outdated |
 | Arch | `1.29.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.29.2` | ✅ latest |
 | Fedora rawhide | `1.29.0` | ⚠️ outdated |
 | Nix unstable | `1.29.1` | ⚠️ outdated |
 | Void | `1.29.2` | ✅ latest |
@@ -87,4 +87,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T04:57:46Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:47:08Z._
