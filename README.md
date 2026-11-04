@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,104 · **Forks**: 1,100 · **Open issues**: 2,356 · **Contributors**: 456
+- **Stars**: 7,104 · **Forks**: 1,099 · **Open issues**: 2,358 · **Contributors**: 456
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2334 · **Open PRs**: 27 · **Closed issues**: 1963 · **Open issues**: 393 · **Commits**: 6240
+- **Releases**: 0 · **Merged PRs**: 2334 · **Open PRs**: 29 · **Closed issues**: 1963 · **Open issues**: 395 · **Commits**: 6240
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 43 | 3 | 10 | 5 | 66 |
-| last60d | 2026-09-04 | 0 | 87 | 6 | 16 | 10 | 191 |
-| 90d | 2026-08-05 | 0 | 123 | 8 | 25 | 14 | 256 |
-| last180d | 2026-05-07 | 0 | 203 | 12 | 62 | 26 | 392 |
-| 360d | 2025-11-08 | 0 | 350 | 16 | 129 | 42 | 644 |
-| last720d | 2024-11-13 | 0 | 640 | 18 | 246 | 93 | 1287 |
+| 30d | 2026-10-05 | 0 | 39 | 5 | 10 | 7 | 66 |
+| last60d | 2026-09-05 | 0 | 87 | 7 | 16 | 12 | 191 |
+| 90d | 2026-08-06 | 0 | 122 | 10 | 25 | 16 | 256 |
+| last180d | 2026-05-08 | 0 | 201 | 14 | 61 | 28 | 392 |
+| 360d | 2025-11-09 | 0 | 350 | 18 | 129 | 44 | 644 |
+| last720d | 2024-11-14 | 0 | 640 | 20 | 246 | 95 | 1283 |
 
 ## Distribution status
 
-Reported by **121** distros on [repology.org](https://repology.org/project/rustup). **30** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+Reported by **121** distros on [repology.org](https://repology.org/project/rustup). **5** are ✅ on the latest upstream release, **103** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -70,12 +70,12 @@ Reported by **121** distros on [repology.org](https://repology.org/project/rustu
 | Debian 13 | `1.27.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.27.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.26.0` | ⚠️ outdated |
-| Arch | `1.29.2` | ✅ latest |
-| Homebrew | `1.29.2` | ✅ latest |
+| Arch | `1.29.2` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.29.0` | ⚠️ outdated |
-| Nix unstable | `1.29.2` | ✅ latest |
-| Void | `1.29.2` | ✅ latest |
-| Alpine edge | `1.29.2` | ✅ latest |
+| Nix unstable | `1.29.2` | ⚠️ outdated |
+| Void | `1.29.2` | ⚠️ outdated |
+| Alpine edge | `1.29.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.29.1~0` | ⚠️ outdated |
 
 ## Improve this data
@@ -87,4 +87,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:04:14Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:28:37Z._

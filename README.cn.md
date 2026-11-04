@@ -42,26 +42,26 @@ x install rustup
 
 ## 流行度
 
-- **Star**: 7,104 · **Fork**: 1,100 · **开放 issue**: 2,356 · **贡献者**: 456
+- **Star**: 7,104 · **Fork**: 1,099 · **开放 issue**: 2,358 · **贡献者**: 456
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 2334 · **开放 PR**: 27 · **已关闭 issue**: 1963 · **开放 issue**: 393 · **提交数**: 6240
+- **发布数**: 0 · **已合并 PR**: 2334 · **开放 PR**: 29 · **已关闭 issue**: 1963 · **开放 issue**: 395 · **提交数**: 6240
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 43 | 3 | 10 | 5 | 66 |
-| last60d | 2026-09-04 | 0 | 87 | 6 | 16 | 10 | 191 |
-| 90d | 2026-08-05 | 0 | 123 | 8 | 25 | 14 | 256 |
-| last180d | 2026-05-07 | 0 | 203 | 12 | 62 | 26 | 392 |
-| 360d | 2025-11-08 | 0 | 350 | 16 | 129 | 42 | 644 |
-| last720d | 2024-11-13 | 0 | 640 | 18 | 246 | 93 | 1287 |
+| 30d | 2026-10-05 | 0 | 39 | 5 | 10 | 7 | 66 |
+| last60d | 2026-09-05 | 0 | 87 | 7 | 16 | 12 | 191 |
+| 90d | 2026-08-06 | 0 | 122 | 10 | 25 | 16 | 256 |
+| last180d | 2026-05-08 | 0 | 201 | 14 | 61 | 28 | 392 |
+| 360d | 2025-11-09 | 0 | 350 | 18 | 129 | 44 | 644 |
+| last720d | 2024-11-14 | 0 | 640 | 20 | 246 | 95 | 1283 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/rustup) 上共有 **121** 个发行版报告此项目。**30** 个 ✅ 已是最新上游版本，**78** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/rustup) 上共有 **121** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**103** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -70,12 +70,12 @@ x install rustup
 | Debian 13 | `1.27.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.27.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.26.0` | ⚠️ outdated |
-| Arch | `1.29.2` | ✅ latest |
-| Homebrew | `1.29.2` | ✅ latest |
+| Arch | `1.29.2` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.29.0` | ⚠️ outdated |
-| Nix unstable | `1.29.2` | ✅ latest |
-| Void | `1.29.2` | ✅ latest |
-| Alpine edge | `1.29.2` | ✅ latest |
+| Nix unstable | `1.29.2` | ⚠️ outdated |
+| Void | `1.29.2` | ⚠️ outdated |
+| Alpine edge | `1.29.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.29.1~0` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -87,4 +87,4 @@ rustup 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T07:04:15Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:28:39Z._
