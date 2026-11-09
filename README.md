@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,107 · **Forks**: 1,103 · **Open issues**: 2,359 · **Contributors**: 456
+- **Stars**: 7,108 · **Forks**: 1,104 · **Open issues**: 2,359 · **Contributors**: 456
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2340 · **Open PRs**: 30 · **Closed issues**: 1965 · **Open issues**: 394 · **Commits**: 6257
+- **Releases**: 0 · **Merged PRs**: 2341 · **Open PRs**: 31 · **Closed issues**: 1965 · **Open issues**: 394 · **Commits**: 6258
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 37 | 7 | 9 | 7 | 66 |
-| last60d | 2026-09-09 | 0 | 85 | 8 | 15 | 12 | 167 |
-| 90d | 2026-08-10 | 0 | 125 | 11 | 26 | 16 | 260 |
-| last180d | 2026-05-12 | 0 | 205 | 15 | 62 | 28 | 406 |
-| 360d | 2025-11-13 | 0 | 349 | 19 | 129 | 44 | 628 |
-| last720d | 2024-11-18 | 0 | 640 | 21 | 246 | 95 | 1300 |
+| 30d | 2026-10-10 | 0 | 38 | 8 | 9 | 7 | 67 |
+| last60d | 2026-09-10 | 0 | 86 | 9 | 15 | 12 | 168 |
+| 90d | 2026-08-11 | 0 | 123 | 12 | 23 | 14 | 261 |
+| last180d | 2026-05-13 | 0 | 206 | 16 | 62 | 28 | 407 |
+| 360d | 2025-11-14 | 0 | 348 | 20 | 129 | 44 | 629 |
+| last720d | 2024-11-19 | 0 | 639 | 22 | 245 | 95 | 1298 |
 
 ## Distribution status
 
-Reported by **120** distros on [repology.org](https://repology.org/project/rustup). **18** are ✅ on the latest upstream release, **90** are ⚠️ on an older version.
+Reported by **119** distros on [repology.org](https://repology.org/project/rustup). **25** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:09:13Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T06:37:10Z._
