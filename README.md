@@ -14,14 +14,14 @@ x install rustup
 
 ## Code insight
 
-Total: **45,426** lines of code across **164** files in the top 5 languages.
+Total: **45,481** lines of code across **164** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 37,524 | 1,850 | 4,311 | 82 |
+| Rust | 37,578 | 1,850 | 4,315 | 82 |
 | Svg | 3,672 | 0 | 174 | 61 |
-| Toml | 995 | 32 | 90 | 9 |
-| Yaml | 819 | 68 | 5 | 8 |
+| Toml | 993 | 32 | 90 | 9 |
+| Yaml | 821 | 68 | 5 | 8 |
 | Sh | 748 | 142 | 126 | 4 |
 
 ## OpenSSF Scorecard
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 7,108 · **Forks**: 1,104 · **Open issues**: 2,359 · **Contributors**: 456
+- **Stars**: 7,110 · **Forks**: 1,105 · **Open issues**: 2,359 · **Contributors**: 457
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2341 · **Open PRs**: 31 · **Closed issues**: 1965 · **Open issues**: 394 · **Commits**: 6258
+- **Releases**: 0 · **Merged PRs**: 2345 · **Open PRs**: 30 · **Closed issues**: 1965 · **Open issues**: 394 · **Commits**: 6269
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 38 | 8 | 9 | 7 | 67 |
-| last60d | 2026-09-10 | 0 | 86 | 9 | 15 | 12 | 168 |
-| 90d | 2026-08-11 | 0 | 123 | 12 | 23 | 14 | 261 |
-| last180d | 2026-05-13 | 0 | 206 | 16 | 62 | 28 | 407 |
-| 360d | 2025-11-14 | 0 | 348 | 20 | 129 | 44 | 629 |
-| last720d | 2024-11-19 | 0 | 639 | 22 | 245 | 95 | 1298 |
+| 30d | 2026-10-11 | 0 | 41 | 6 | 9 | 7 | 78 |
+| last60d | 2026-09-11 | 0 | 88 | 8 | 15 | 11 | 179 |
+| 90d | 2026-08-12 | 0 | 126 | 11 | 23 | 14 | 272 |
+| last180d | 2026-05-14 | 0 | 209 | 15 | 61 | 28 | 418 |
+| 360d | 2025-11-15 | 0 | 352 | 19 | 129 | 44 | 640 |
+| last720d | 2024-11-20 | 0 | 642 | 21 | 244 | 95 | 1307 |
 
 ## Distribution status
 
-Reported by **119** distros on [repology.org](https://repology.org/project/rustup). **25** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
+Reported by **119** distros on [repology.org](https://repology.org/project/rustup). **27** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **119** distros on [repology.org](https://repology.org/project/rustu
 | Nix unstable | `1.29.3` | ✅ latest |
 | Void | `1.29.3` | ✅ latest |
 | Alpine edge | `1.29.3` | ✅ latest |
-| openSUSE Tumbleweed | `1.29.1~0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.29.3~0` | ✅ latest |
 
 ## Improve this data
 
@@ -87,4 +87,4 @@ Install metadata for rustup lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:37:10Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:30:37Z._
