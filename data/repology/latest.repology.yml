@@ -258,6 +258,22 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: kali_rolling
+  subrepo: main
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-8
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - misc
 - repo: alpine_3_22
   subrepo: community
   srcname: rustup
@@ -388,6 +404,15 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: kiss_community
+  subrepo: community
+  srcname: rustup-bin
+  visiblename: rustup-bin
+  version: 1.29.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - prathamin@proton.me
 - repo: alpine_3_24
   subrepo: community
   srcname: rustup
@@ -528,9 +553,9 @@
   srcname: rustup
   binname: rustup
   visiblename: rustup
-  version: 1.29.2
-  origversion: 1.29.2-1
-  status: outdated
+  version: 1.29.3
+  origversion: 1.29.3-1
+  status: newest
   summary: The Rust toolchain installer
   licenses:
     - MIT
@@ -900,31 +925,6 @@
   origversion: null
   status: rolling
   summary: Rust toolchain installer
-- repo: kali_rolling
-  subrepo: main
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-8
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: rustup-bin
-  visiblename: rustup-bin
-  version: 1.29.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - prathamin@proton.me
 - repo: liguros_stable
   srcname: dev-util/rustup
   visiblename: dev-util/rustup
@@ -990,6 +990,13 @@
     - '|| ( Apache-2.0 MIT ) Apache-2.0 BSD CDLA-Permissive-2.0 ISC MIT Unicode-3.0 ZLIB'
   categories:
     - dev-util
+- repo: xrepo
+  srcname: rustup
+  visiblename: rustup
+  version: 1.28.1
+  origversion: null
+  status: outdated
+  summary: An installer for the systems programming language Rust
 - repo: macports
   srcname: devel/rustup
   binname: rustup
@@ -1072,6 +1079,22 @@
   summary: The Rust toolchain installer (mingw-w64)
   licenses:
     - spdx:Apache-2.0 AND MIT
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - universe/misc
 - repo: msys2_ucrt64
   srcname: mingw-w64-rustup
   binname: mingw-w64-ucrt-x86_64-rustup
@@ -1255,7 +1278,7 @@
     - MIT
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rustup
   binnames:
     - librust-rustup-dev
@@ -1271,7 +1294,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rustup
   binnames:
     - librust-rustup-dev
@@ -1442,22 +1465,6 @@
     - zixing.liu@canonical.com
   categories:
     - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: rustup
@@ -1561,10 +1568,3 @@
   licenses:
     - Apache Software License 2.0
     - MIT License
-- repo: xrepo
-  srcname: rustup
-  visiblename: rustup
-  version: 1.28.1
-  origversion: null
-  status: outdated
-  summary: An installer for the systems programming language Rust
