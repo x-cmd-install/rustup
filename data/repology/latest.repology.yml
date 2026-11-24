@@ -1,25 +1,79 @@
-- repo: aur
-  srcname: rustup-git
-  binname: rustup-git
-  visiblename: rustup-git
-  version: 1.28.2.r61.g3197587f
-  origversion: 1.28.2.r61.g3197587f-1
-  status: rolling
-  summary: The Rust toolchain installer
-  maintainers:
-    - ilai-deutel@github
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
+- repo: artix
+  subrepo: world
   srcname: rustup
   binname: rustup
   visiblename: rustup
+  version: 1.29.3
+  origversion: 1.29.3-1
+  status: newest
+  summary: The Rust toolchain installer
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: chocolatey
+  binname: rustup.install
+  visiblename: rustup (Install)
+  version: 1.27.1
+  origversion: null
+  status: outdated
+  summary: 'rustup: the Rust toolchain installer'
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - rust
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-3
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-8
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - misc
+- repo: alpine_3_17
+  subrepo: community
+  srcname: rustup
+  binname: rustup-zsh-completion
+  visiblename: rustup-zsh-completion
   version: 1.25.2
   origversion: 1.25.2-r0
   status: outdated
-  summary: The Rust toolchain installer
+  summary: The Rust toolchain installer -zsh completion
   maintainers:
     - oss@cogitri.dev
   licenses:
@@ -53,12 +107,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: rustup
-  binname: rustup-zsh-completion
-  visiblename: rustup-zsh-completion
+  binname: rustup
+  visiblename: rustup
   version: 1.25.2
   origversion: 1.25.2-r0
   status: outdated
-  summary: The Rust toolchain installer -zsh completion
+  summary: The Rust toolchain installer
   maintainers:
     - oss@cogitri.dev
   licenses:
@@ -193,6 +247,22 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rustup
+  binnames:
+    - librust-rustup-dev
+    - rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: 1.27.1-8
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - zixing.liu@canonical.com
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: rustup
@@ -245,96 +315,96 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: artix
-  subrepo: world
+- repo: alpine_3_21
+  subrepo: community
+  srcname: rustup
+  binname: rustup-fish-completion
+  visiblename: rustup-fish-completion
+  version: 1.25.2
+  origversion: 1.25.2-r5
+  status: outdated
+  summary: Fish completions for rustup
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: rustup
+  binname: rustup-zsh-completion
+  visiblename: rustup-zsh-completion
+  version: 1.25.2
+  origversion: 1.25.2-r5
+  status: outdated
+  summary: Zsh completions for rustup
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
   srcname: rustup
   binname: rustup
   visiblename: rustup
-  version: 1.29.3
-  origversion: 1.29.3-1
-  status: newest
-  summary: The Rust toolchain installer
+  version: 1.27.1
+  origversion: 1.27.1-r0
+  status: outdated
+  summary: Rust toolchain installer
+  maintainers:
+    - ncopa@alpinelinux.org
   licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: rustup
+  binname: rustup-bash-completion
+  visiblename: rustup-bash-completion
+  version: 1.27.1
+  origversion: 1.27.1-r0
+  status: outdated
+  summary: Bash completions for rustup
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: rustup
+  binname: rustup-fish-completion
+  visiblename: rustup-fish-completion
+  version: 1.27.1
+  origversion: 1.27.1-r0
+  status: outdated
+  summary: Fish completions for rustup
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: rustup
+  binname: rustup-zsh-completion
+  visiblename: rustup-zsh-completion
+  version: 1.27.1
+  origversion: 1.27.1-r0
+  status: outdated
+  summary: Zsh completions for rustup
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: null
+  status: outdated
+  summary: Rust toolchain installer
+  maintainers:
+    - joerg@thalheim.io
+  licenses:
+    - Apache-2.0
     - MIT
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: rustup
-  binname: rustup-fish-completion
-  visiblename: rustup-fish-completion
-  version: 1.25.2
-  origversion: 1.25.2-r5
-  status: outdated
-  summary: Fish completions for rustup
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: rustup
-  binname: rustup-zsh-completion
-  visiblename: rustup-zsh-completion
-  version: 1.25.2
-  origversion: 1.25.2-r5
-  status: outdated
-  summary: Zsh completions for rustup
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: rustup
-  binname: rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-r0
-  status: outdated
-  summary: Rust toolchain installer
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: rustup
-  binname: rustup-bash-completion
-  visiblename: rustup-bash-completion
-  version: 1.27.1
-  origversion: 1.27.1-r0
-  status: outdated
-  summary: Bash completions for rustup
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: rustup
-  binname: rustup-fish-completion
-  visiblename: rustup-fish-completion
-  version: 1.27.1
-  origversion: 1.27.1-r0
-  status: outdated
-  summary: Fish completions for rustup
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: rustup
-  binname: rustup-zsh-completion
-  visiblename: rustup-zsh-completion
-  version: 1.27.1
-  origversion: 1.27.1-r0
-  status: outdated
-  summary: Zsh completions for rustup
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_23
   subrepo: community
   srcname: rustup
@@ -386,18 +456,6 @@
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: rustup
-  binname: rustup
-  visiblename: rustup
-  version: 1.29.3
-  origversion: 1.29.3-1
-  status: newest
-  summary: The Rust toolchain installer
-  licenses:
-    - MIT
     - Apache-2.0
 - repo: alpine_3_24
   subrepo: community
@@ -477,6 +535,18 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: rustup
+  visiblename: rustup
+  version: 1.27.1
+  origversion: null
+  status: outdated
+  summary: Rust toolchain installer
+  maintainers:
+    - joerg@thalheim.io
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: rustup
@@ -547,18 +617,19 @@
   licenses:
     - MIT
     - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: rustup
-  binname: rustup
-  visiblename: rustup
-  version: 1.29.3
-  origversion: 1.29.3-1
-  status: newest
+- repo: aur
+  srcname: rustup-git
+  binname: rustup-git
+  visiblename: rustup-git
+  version: 1.28.2.r61.g3197587f
+  origversion: 1.28.2.r61.g3197587f-1
+  status: rolling
   summary: The Rust toolchain installer
+  maintainers:
+    - ilai-deutel@github
   licenses:
-    - MIT
     - Apache-2.0
+    - MIT
 - repo: debian_13
   subrepo: trixie/main
   srcname: rustup
@@ -637,22 +708,6 @@
     - pkg-rust-maintainers@alioth-lists.debian.net
     - infinity0@debian.org
     - zixing.liu@canonical.com
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-8
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - misc
 - repo: exherbo
   subrepo: rust
   srcname: dev-rust/rustup
@@ -987,6 +1042,18 @@
     - '|| ( Apache-2.0 MIT ) Apache-2.0 BSD ISC MIT MPL-2.0 openssl Unicode-3.0'
   categories:
     - dev-util
+- repo: nix_stable_25_11
+  srcname: rustup
+  visiblename: rustup
+  version: 1.28.2
+  origversion: null
+  status: outdated
+  summary: Rust toolchain installer
+  maintainers:
+    - joerg@thalheim.io
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: liguros_stable
   srcname: dev-util/rustup
   visiblename: dev-util/rustup
@@ -1059,9 +1126,33 @@
   srcname: rustup
   binname: rustup
   visiblename: rustup
-  version: 1.29.1
-  origversion: 1.29.1-1
-  status: outdated
+  version: 1.29.3
+  origversion: 1.29.3-1
+  status: newest
+  summary: The Rust toolchain installer
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: rustup
+  binname: rustup
+  visiblename: rustup
+  version: 1.29.3
+  origversion: 1.29.3-1
+  status: newest
+  summary: The Rust toolchain installer
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: rustup
+  binname: rustup
+  visiblename: rustup
+  version: 1.29.3
+  origversion: 1.29.3-1
+  status: newest
   summary: The Rust toolchain installer
   licenses:
     - MIT
@@ -1114,30 +1205,6 @@
   origversion: null
   status: outdated
   summary: The Rust toolchain installer
-  maintainers:
-    - joerg@thalheim.io
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_24_11
-  srcname: rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: null
-  status: outdated
-  summary: Rust toolchain installer
-  maintainers:
-    - joerg@thalheim.io
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_05
-  srcname: rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: null
-  status: outdated
-  summary: Rust toolchain installer
   maintainers:
     - joerg@thalheim.io
   licenses:
@@ -1268,22 +1335,6 @@
     - MIT
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot/main
   srcname: rustup
   binnames:
@@ -1299,8 +1350,8 @@
     - zixing.liu@canonical.com
   categories:
     - misc
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: rustup
   binnames:
     - librust-rustup-dev
@@ -1308,38 +1359,6 @@
   visiblename: rustup
   version: 1.27.1
   origversion: 1.27.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - rust
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-3
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - zixing.liu@canonical.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rustup
-  binnames:
-    - librust-rustup-dev
-    - rustup
-  visiblename: rustup
-  version: 1.27.1
-  origversion: 1.27.1-8
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -1581,22 +1600,3 @@
   origversion: null
   status: outdated
   summary: An installer for the systems programming language Rust
-- repo: chocolatey
-  binname: rustup.install
-  visiblename: rustup (Install)
-  version: 1.27.1
-  origversion: null
-  status: outdated
-  summary: 'rustup: the Rust toolchain installer'
-- repo: nix_stable_25_11
-  srcname: rustup
-  visiblename: rustup
-  version: 1.28.2
-  origversion: null
-  status: outdated
-  summary: Rust toolchain installer
-  maintainers:
-    - joerg@thalheim.io
-  licenses:
-    - Apache-2.0
-    - MIT
