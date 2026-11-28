@@ -2,28 +2,28 @@ about:
   description: "The Rust toolchain installer"
   license: Apache-2.0
   homepage: https://rustup.rs/
-  head: 7747d0c
+  head: 2bf84a1
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:53:12Z
+  collectedAt: 2026-11-28T07:58:55Z
 timeline:
   created: 2015-09-26
-  lastCommit: 2026-11-25
+  lastCommit: 2026-11-27
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 7145
+  star: 7146
   watcher: 104
-  fork: 1118
+  fork: 1119
   release: 0
-  contributor: 462
-  pullRequest: 2812
-  issue: 2374
+  contributor: 463
+  pullRequest: 2815
+  issue: 2379
 language:
-  Rust: 1182947
+  Rust: 1182931
   Shell: 43979
   HTML: 15441
   Dockerfile: 11618
@@ -34,66 +34,66 @@ language:
   Nix: 626
   Xonsh: 81
   Nu: 47
-totalBytes: 1277834
+totalBytes: 1277818
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 52
-    openPR: 10
+    openPR: 11
     closedIssue: 14
-    openIssue: 6
-    commit: 115
+    openIssue: 10
+    commit: 117
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 92
-    openPR: 10
+    mergedPR: 91
+    openPR: 11
     closedIssue: 24
-    openIssue: 11
-    commit: 194
-  last90d:
-    since: 2026-08-29
-    release: 0
-    mergedPR: 146
-    openPR: 13
-    closedIssue: 30
     openIssue: 15
-    commit: 327
+    commit: 196
+  last90d:
+    since: 2026-08-30
+    release: 0
+    mergedPR: 148
+    openPR: 13
+    closedIssue: 31
+    openIssue: 19
+    commit: 329
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 227
-    openPR: 17
-    closedIssue: 64
-    openIssue: 29
-    commit: 477
+    openPR: 18
+    closedIssue: 65
+    openIssue: 33
+    commit: 479
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
-    mergedPR: 372
-    openPR: 19
-    closedIssue: 133
-    openIssue: 45
-    commit: 708
+    mergedPR: 374
+    openPR: 20
+    closedIssue: 134
+    openIssue: 49
+    commit: 710
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
-    mergedPR: 671
-    openPR: 23
-    closedIssue: 253
-    openIssue: 94
-    commit: 1370
+    mergedPR: 673
+    openPR: 24
+    closedIssue: 254
+    openIssue: 98
+    commit: 1372
 total:
   release: 0
-  mergedPR: 2379
-  openPR: 32
-  closedIssue: 1978
-  openIssue: 396
-  commit: 6348
+  mergedPR: 2381
+  openPR: 33
+  closedIssue: 1979
+  openIssue: 400
+  commit: 6350
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rustup
-collectedAt: 2026-11-27T08:53:15Z
+collectedAt: 2026-11-28T07:58:58Z
 loc:
   Rust:
     code: 38410
